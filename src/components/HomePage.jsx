@@ -10,9 +10,10 @@ const HomePage = () => {
                 <div className="row align-items-center">
                     {/* Image Column */}
                     <div className="col-12 col-md-6 text-center mb-4 mb-md-0">
-                        <img src="/images/dice.png" alt="Dice Game" className="img-fluid" />
+                        {/* <img src="/images/dice.png" alt="Dice Game" className="img-fluid" /> */}
+                        <img src={`${process.env.PUBLIC_URL}/images/dice.png`} alt="Dice Game" className="img-fluid" />
                     </div>
-                    
+
                     {/* Text and Button Column */}
                     <div className="col-12 col-md-6 text-center text-md-start">
                         <p className="title-text">DICE GAME</p>

@@ -64,7 +64,8 @@ const Play = () => {
             <div className="container d-flex flex-column align-items-center mt-3">
                 <p className="selected-number rolledValue my-2">Selected Number: {val}</p>
                 <button className="btn p-0" onClick={randomval}>
-                    <img src="/images/cube.png" alt="Cube Image" className="img-fluid" style={{ maxHeight: '12rem', width: 'auto' }} />
+                    {/* <img src="/images/cube.png" alt="Cube Image" className="img-fluid" style={{ maxHeight: '12rem', width: 'auto' }} /> */}
+                    <img src={`${process.env.PUBLIC_URL}/images/cube.png`} alt="Cube Image" className="img-fluid" style={{ maxHeight: '12rem', width: 'auto' }} />
                 </button>
                 <p className="note mt-2">Click on the Dice to roll</p>
                 <p className="rolledValue">Rolled Value: {rolledValue}</p>
