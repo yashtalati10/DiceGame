@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage';
 import Play from './components/Play';
-import { Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Switch } from 'react-router-dom';
+
 
 function App() {
   return (
